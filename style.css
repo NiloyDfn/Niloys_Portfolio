@@ -191,8 +191,8 @@ section {
 
 .about-img img {
     height: 70vh;
-    /* clip-path: circle(40.7% at 50% 50%); */
-    border-radius: 50%;
+    clip-path: circle(40.7% at 50% 50%);
+    /* border-radius: 50%; */
 }
 
 .heading {
@@ -674,18 +674,18 @@ section {
     }
 
     .homepart2 img {
-        height: 30vh;
+        height: 50vh;
         width: auto;
         margin-top: 5vw;
     }
 
     .about-img img {
-        height: 30vh;
+        height: 50vh;
         width: auto;
     }
 
     #menu-icon {
-        font-size: 8vw;
+        font-size: 7vw;
     }
 
     .header {
@@ -693,7 +693,8 @@ section {
     }
 
     .logo {
-        font-size: 8vw;
+        font-size: 6vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     section {
@@ -703,8 +704,8 @@ section {
 
     .navbar a {
         display: block;
-        font-size: 5vw;
-        margin: 5vw 0;
+        font-size: 6vw;
+        margin: 6vw 0;
     }
 
     .homepart1 h3 {
@@ -717,7 +718,7 @@ section {
     }
 
     .homepart1 p {
-        font-size: 4vw;
+        font-size: 5vw;
         line-height: 3.5rem;
         color: white;
     }
@@ -873,11 +874,14 @@ section {
     }
 
     .footer-icontop a i {
-        font-size: 10vw;
+        font-size: 8vw;
         color: var(--second-bg-color);
     }
 }
-
+.footer span{
+    color:rgb(231, 36, 218);
+    font-size: 6vw;
+}
 @media (max-width: 385px) {
     .homepart2 img {
         height: 25vh;
