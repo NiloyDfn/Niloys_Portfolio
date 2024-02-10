@@ -35,7 +35,7 @@ menuIcon.onclick = () => {
 };
 
 
-var csr = document.querySelector(".cursor")
+let csr = document.querySelector(".cursor")
 
 document.addEventListener("mousemove",function(dets){
     gsap.to(csr,{
@@ -44,7 +44,7 @@ document.addEventListener("mousemove",function(dets){
     })
 })
 
-const typed = new Typed(".multiple-text",{
+const tayping = new Typed(".multiple-text",{
     strings : ["Full Stack Developer", "Front-End Developer", "Back-End Developer"],
     typeSpeed: 100,
     backspeed:100,
