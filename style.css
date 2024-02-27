@@ -340,6 +340,7 @@ section {
 
 .portfolio-box:hover .portfolio-layer {
     transform: translateY(0);
+    scale: 1.2;
 }
 
 .portfolio-layer h4 {
