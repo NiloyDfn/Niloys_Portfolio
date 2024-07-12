@@ -113,7 +113,7 @@ section {
 
 .homepart2 img {
     object-fit: cover;
-    height: 80vh;
+    height: 30vw;
     clip-path: circle(40.7% at 50% 50%);
     animation: floatImage 4s ease-in-out infinite;
     /* border-radius: 50%; */
@@ -146,12 +146,11 @@ section {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    height: 3vw;
-    width: 3vw;
+    padding: 1.5vw;
     background: transparent;
     border: 0.2rem solid var(--main-color);
     border-radius: 50%;
-    font-size: 1.8vw;
+    font-size: 3vw;
     color: var(--main-color);
     margin: 2.5vw 1vw 2.5vw 0;
     transition: all 0.5s ease;
@@ -511,21 +510,22 @@ section {
         flex-direction: column;
     }
 
-    .homepart1 {
-        margin-top: 3.7vw;
-    }
+  
 
     .homepart1 h3 {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
+        margin-top: 20vw;
+
     }
 
     .homepart1 h1 {
-        font-size: 5vw;
+        font-size: 4vw;
     }
+   
 
     .homepart2 img {
-        height: 55vh;
-        margin-top: 5vw;
+        height: 65vh;
+        margin-top: 2vw;
     }
 
     .about {
@@ -537,7 +537,7 @@ section {
     }
 
     .about-img img {
-        height: 55vh;
+        height: 65vw;
     }
 
     .services h2 {
@@ -725,11 +725,9 @@ section {
     }
 
     .social-media a {
-        height: auto;
-        width: auto;
-
-        font-size: 6rem;
-        margin-bottom: 4rem;
+       padding: 2.5vw;
+       font-size: 6vw;
+       margin-bottom: 4rem;
     }
 
     .btn {

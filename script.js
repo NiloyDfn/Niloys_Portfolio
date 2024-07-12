@@ -62,6 +62,7 @@ gsap.from(".navbar",{
     opacity: 0,
   
 })
+
 gsap.from(".logo",{
     y: -60,
    duration: 1,
